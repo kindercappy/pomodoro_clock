@@ -1,3 +1,106 @@
 body {
   background-color: orange;
+  padding-top: 1rem;
+}
+.timeManagementArea{
+	width: 50%;
+	margin: 0 auto;
+}
+.sessionArea button,.breakArea button{
+	/* background-color: black; */
+	width: 50%;
+}
+.clock_button{
+	width: 50%;
+	margin: .2rem 0;
+	margin-top: 2rem;
+}
+p{
+	/* background-color: black; */
+}
+.clock{
+	/* background-color: black; */
+	padding: 1rem;
+	margin: 0 auto;
+	width: 30%;
+}
+.my-clock{
+
+}
+@media (max-width: 430px) {
+	.timeManagementArea{
+		width: 99%;
+		margin: 0 auto;
+	}
+	.clock{
+		/* background-color: black; */
+		padding: 1rem;
+		margin: 0 auto;
+		width: 90%;
+	}
+}
+/* col- */
+@media (min-width: 431px) and (max-width: 576px) {
+	.timeManagementArea{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.clock{
+		/* background-color: black; */
+		padding: 1rem;
+		margin: 0 auto;
+		width: 80%;
+	}
+}
+/* col-sm */
+@media (min-width: 577px) and (max-width: 767px){
+	.timeManagementArea{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.clock{
+		/* background-color: black; */
+		padding: 1rem;
+		margin: 0 auto;
+		width: 60%;
+	}
+}
+/* col-md */
+@media (min-width: 768px) and (max-width: 991px){
+	.timeManagementArea{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.clock{
+		/* background-color: black; */
+		padding: 1rem;
+		margin: 0 auto;
+		width: 50%;
+	}
+}
+/* col-lg */
+@media (min-width: 992px) and (max-width: 1199px){
+	.timeManagementArea{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.clock{
+		/* background-color: black; */
+		padding: 1rem;
+		margin: 0 auto;
+		width: 35%;
+	}
+	}
+	/* col-xl */
+	@media  (min-width: 1200px){
+	.timeManagementArea{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.clock{
+		/* background-color: black; */
+		padding: 1rem;
+		margin: 0 auto;
+		width: 30%;
+	}
 }
